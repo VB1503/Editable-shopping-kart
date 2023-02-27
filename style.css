@@ -1,0 +1,113 @@
+body{
+   background-image: url(bg.jpg);
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+
+header,
+footer {
+  color: white;
+  background-color: #2da1ee;
+  width: 100%;
+  text-align: center;
+  padding: 0.5em;
+  position: relative;
+}
+footer,
+.push {
+  height: 2em;
+}
+.wrapper {
+  margin: 0 auto -2em;
+  min-height: 100%;
+}
+form {
+  width: inherit;
+}
+label {
+  display: block;
+  line-height: 1.5em;
+}
+input {
+  width: inherit;
+  padding: 1em;
+}
+.delete, button {
+  color: white;
+  background-color: #09f86d;
+}
+button {
+  border: 0;
+  padding: 1em;
+  width: inherit;
+  margin: 0.75em 0;
+}
+.icon {
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  margin-right: 0.25em;
+  fill: #004A55;
+}
+#bought-list li:before, #shopping-list li:before {
+  content: "";
+  display: inline-block;
+  background-size: 100%;
+  height: 0.9em;
+  width: 1em;
+  margin-right: 0.3em;
+}
+#shopping-list li:before {
+  background-image: url("https://res.cloudinary.com/ddy54k4ks/image/upload/v1454106412/svg/checkmark2.svg");
+}
+#bought-list li:before {
+  background-image: url("https://res.cloudinary.com/ddy54k4ks/image/upload/v1454106412/svg/checkmark.svg");
+}
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+li {
+  color: #181616;
+  padding: 0.75em;
+  cursor: pointer;
+  margin: 0.5em 0;
+  border: 1px solid #004A55;
+  position: relative;
+  transition: background-color 0.2s;
+}
+li:hover {
+  background-color: #A7CDCC;
+}
+.quantity {
+  color: #F87D09;
+}
+.quantity:before {
+  content: "(";
+}
+.quantity:after {
+  content: ")";
+}
+.delete {
+  float: right;
+  padding: inherit;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.delete:after {
+  clear: both;
+}
+#bought-list li {
+  background-color: #F6F6F6;
+}
+#bought-list li .quantity {
+  color: #666666;
+}
+.list__label {
+  border-bottom: 2px solid #F87D09;
+  font-size: 0.75em;
+  color: #004A55;
+  padding: 0;
+}

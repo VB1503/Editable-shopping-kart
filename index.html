@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping kart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       Editable shopping-list 
+      </header>
+    
+      <main>
+        <form>
+          <label for="item-input">Item</label>
+          <input type="text" id="item-input">
+          <label for="quantity-input">Quantity</label>
+          <input type="number" id="quantity-input">
+          <button type="submit" id="submit-btn">Add</button>
+        </form>
+    
+        <div id="lists">
+          <p class="list__label">Still need to grab <span class="quantity" id="shopping-num"></span></p>
+          <ul id="shopping-list">
+          </ul>
+          <p class="list__label">In cart <span class="quantity" id="bought-num"></span></p>
+          <ul id="bought-list">
+          </ul>
+        </div>
+    
+      </main>
+      <div class="push"></div>
+    </div>
+    <!-- jQuery -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+<!-- Lodash JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+<!-- Backbone JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js'></script>
+<script src="index.js"></script>
+
+</body>
+</html>
+
+
