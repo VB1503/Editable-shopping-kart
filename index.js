@@ -168,14 +168,4 @@ const classNames = {
   
   app.init();
   
-  items.add({
-    name: "Wine",
-    quantity: 1 });
-  
-  items.add({
-    name: "Cheese",
-    quantity: 1 });
-  
-  items.add({
-    name: "Dark chocolate",
-    quantity: 1 });
+ 
